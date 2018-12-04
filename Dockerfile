@@ -11,4 +11,4 @@ RUN set -x \
 	&& mv redpen-*/ /usr/local/redpen \
 	&& rm redpen-${REDPEN_VER}.tar.gz
 
-ENTRYPOINT ["redpen"]
+CMD ["/bin/sh"]
